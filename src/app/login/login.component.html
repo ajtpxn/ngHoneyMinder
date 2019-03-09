@@ -1,0 +1,32 @@
+<div class="container archivo">
+
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-md-4">
+      <form>
+        Username:
+        <input
+          class="form-control"
+          type="text"
+          name="username"
+          [(ngModel)]="username"
+        />
+        <br />
+        Password:
+        <input
+          class="form-control"
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+        />
+        <br>
+        <input class="btn btn-success" type="submit" (click)="login()" value="Log In" />
+      </form>
+      <hr>
+
+
+    </div>
+    <div class="col"></div>
+  </div>
+
+</div>

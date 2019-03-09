@@ -1,0 +1,21 @@
+<div class="container archivo">
+  <div class="jumbotron display-3 text-center archivoblack">
+    <img src="assets/images/honey_small.png" id="honeyimg">
+    Honey Minder
+  </div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-md-4">
+      <div *ngIf="userloggedin">
+        <button class="btn btn-success" [routerLink]="['/profile']">Your Profile</button>
+      </div>
+      <div *ngIf="!userloggedin">
+        <button class="btn btn-success" [routerLink]="['/login']">Log In</button>
+        <hr>
+        <button class="btn btn-secondary" [routerLink]="['/register']">Register</button>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+
+</div>

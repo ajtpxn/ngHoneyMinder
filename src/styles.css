@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+.archivoblack {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.archivo {
+  font-family: 'Archivo', sans-serif;
+}
+
+.archivonarrow {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+
