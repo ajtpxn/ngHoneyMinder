@@ -1,3 +1,4 @@
+import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'profile', component: ProfileComponent},
   { path: 'register', component: RegisterComponent},
+  { path: 'gallery', component: GalleryComponent},
   { path: '**', component: HomeComponent}
 ];
 
